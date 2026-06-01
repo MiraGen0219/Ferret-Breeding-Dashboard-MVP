@@ -1,8 +1,10 @@
-import { ferrets } from "../data/seedData";
+import { ferrets, pairings, litters } from "../data/seedData";
 import DashboardStat from "../components/DashboardStat";
 
 function Dashboard() {
     const totalFerrets = ferrets.length;
+    const totalPairings = pairings.length;
+    const totalLitters = litters.length;
 
     const activeFerrets = ferrets.filter(
         (ferret) => ferret.status === "Active").length;
@@ -18,6 +20,9 @@ function Dashboard() {
 
     const deceasedFerrets = ferrets.filter(
         (ferret) => ferret.status === "Deceased").length;
+
+    const totalKitsBorn = litters.reduce((total, litter) => total + litter.born, 0);
+    const totalKitsSurvived = litters.reduce((total, litter) => total + litter.survived, 0);
     
     
 
@@ -53,6 +58,26 @@ function Dashboard() {
             <DashboardStat
                 title="Deceased Ferrets"
                 value={deceasedFerrets}
+            />
+
+            <DashboardStat
+                title="Total Pairings"
+                value={totalPairings}
+            />
+
+            <DashboardStat
+                title="Total Litters"
+                value={totalLitters}
+            />
+
+            <DashboardStat
+                title="Total Kits Born"
+                value={totalKitsBorn}
+            />
+
+            <DashboardStat
+                title="Total Kits Survived"
+                value={totalKitsSurvived}
             />
 
         </div>
