@@ -224,3 +224,87 @@ export const ferrets = [
     status: "Rehomed"
   }
 ];
+
+export const pairings = [
+{
+    id: 1,
+    hob: "Boggart",
+    jill: "Princess Pea",
+    year: 2026,
+    season: "Spring",
+    status: "Completed",
+    goal: "Mini size, structure, proportions"
+},
+{
+    id: 2,
+    hob: "Jabberwocky",
+    jill: "Lady of the Lake",
+    year: 2026,
+    season: "Spring",
+    status: "Completed",
+    goal: "Structure reinforcement"
+},
+{
+    id: 3,
+    hob: "Ettin",
+    jill: "Mother Goose",
+    year: 2026,
+    season: "Summer",
+    status: "Completed",
+    goal: "Proportion reinforcement"
+},
+{
+    id: 4,
+    hob: "Jabberwocky",
+    jill: "Baba Yaga",
+    year: 2026,
+    season: "Summer",
+    status: "Completed",
+    goal: "Structure, proportion reinforcement"
+},
+{
+    id: 5,
+    hob: "Enarxi",
+    jill: "Rapunzel",
+    year: 2026,
+    season: "Summer",
+    status: "Completed",
+    goal: "Mini size, structure, proportions"
+},
+{
+    id: 6,
+    hob: "Boggart",
+    jill: "Princess Aurora",
+    year: 2026,
+    season: "Summer",
+    status: "Completed",
+    goal: "Mini size, structure, proportions"
+}
+]
+
+export const litters = [
+{
+    id: 1,
+    pairing: "Princess Pea x Boggart",
+    year: 2026,
+    season: "Summer",
+    born: 8,
+    survived: 8
+},
+{
+    id: 2,
+    pairing: "Lady of the Lake x Jabberwocky",
+    year: 2026,
+    season: "Summer",
+    born: 7,
+    survived: 6
+},
+{
+    id: 3,
+    pairing: "Mother Goose x Ettin",
+    year: 2026,
+    season: "Summer",
+    born: 11,
+    survived: 11
+}
+]
