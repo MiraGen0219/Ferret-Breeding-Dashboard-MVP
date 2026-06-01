@@ -5,6 +5,8 @@ export const ferrets = [
     sex: "Jill",
     birthDate: "2024-12-14",
     size: "Mini",
+    color: "Champagne",
+    pattern: "Standard",
     role: "Breeder",
     status: "Active"
   },
@@ -14,6 +16,8 @@ export const ferrets = [
     sex: "Hob",
     birthDate: "2024-06-17",
     size: "Standard",
+    color: "Sable",
+    pattern: "Standard",
     role: "Breeder",
     status: "Active"
   },
@@ -23,6 +27,8 @@ export const ferrets = [
     sex: "Jill",
     birthDate: "2026-02-27",
     size: "Mini",
+    color: "Black",
+    pattern: "Roan Mitt",
     role: "Breeder",
     status: "Active"
   },
@@ -32,6 +38,8 @@ export const ferrets = [
     sex: "Hob",
     birthDate: "2024-07-15",
     size: "Standard",
+    color: "Sable",
+    pattern: "Standard",
     role: "Breeder",
     status: "Active"
   },
@@ -41,6 +49,8 @@ export const ferrets = [
     sex: "Jill",
     birthDate: "2025-05-11",
     size: "Standard",
+    color: "Sable",
+    pattern: "Standard",
     role: "Breeder",
     status: "Active"
   },
@@ -50,6 +60,8 @@ export const ferrets = [
     sex: "Hob",
     birthDate: "2024-05-13",
     size: "Standard",
+    color: "Albino",
+    pattern: "Standard",
     role: "Breeder",
     status: "Active"
   },
@@ -59,6 +71,8 @@ export const ferrets = [
     sex: "Hob",
     birthDate: "2023-05-08",
     size: "Standard",
+    color: "Black Sable",
+    pattern: "Standard",
     role: "Breeder",
     status: "Active"
   },
@@ -68,6 +82,8 @@ export const ferrets = [
     sex: "Jill",
     birthDate: "2025-02-18",
     size: "Standard",
+    color: "Black Sable",
+    pattern: "Standard",
     role: "Breeder",
     status: "Active"
   },
@@ -77,6 +93,8 @@ export const ferrets = [
     sex: "Jill",
     birthDate: "2021-05-14",
     size: "Standard",
+    color: "Roan",
+    pattern: "Mitt",
     role: "Breeder",
     status: "Retired"
   },
@@ -86,6 +104,8 @@ export const ferrets = [
     sex: "Hob",
     birthDate: "2023-07-09",
     size: "Standard",
+    color: "Sable",
+    pattern: "Point",
     role: "Breeder",
     status: "Retired"
   },
@@ -95,6 +115,8 @@ export const ferrets = [
     sex: "Hob",
     birthDate: "2022-03-12",
     size: "Mini",
+    color: "Chocolate",
+    pattern: "Standard",
     role: "Breeder",
     status: "Retired"
   },
@@ -104,6 +126,8 @@ export const ferrets = [
     sex: "Jill",
     birthDate: "2025-04-02",
     size: "Standard",
+    color: "Roan",
+    pattern: "Mitt",
     role: "Breeder",
     status: "Active"
   },
@@ -113,6 +137,8 @@ export const ferrets = [
     sex: "Jill",
     birthDate: "2025-05-19",
     size: "Standard",
+    color: "Sable",
+    pattern: "Standard",
     role: "Breeder",
     status: "Active",
   },
@@ -122,6 +148,8 @@ export const ferrets = [
     sex: "Jill",
     birthDate: "2025-05-01",
     size: "Mini",
+    color: "Sable",
+    pattern: "Point",
     role: "Breeder",
     status: "Active"
   },
@@ -131,6 +159,8 @@ export const ferrets = [
     sex: "Jill",
     birthDate: "2023-08-06",
     size: "Standard",
+    color: "Sable",
+    pattern: "Standard",
     role: "Breeder",
     status: "Retired"
   },
@@ -140,6 +170,8 @@ export const ferrets = [
     sex: "Jill",
     birthDate: "2023-03-28",
     size: "Standard",
+    color: "Roan",
+    pattern: "Mitt",
     role: "Breeder",
     status: "Retired"
   },
@@ -149,6 +181,8 @@ export const ferrets = [
     sex: "Jill",
     birthDate: "2024-04-10",
     size: "Standard",
+    color: "Black Sable",
+    pattern: "Standard",
     role: "Breeder",
     status: "Active"
   },
@@ -158,6 +192,8 @@ export const ferrets = [
     sex: "Jill",
     birthDate: "2023-05-08",
     size: "Standard",
+    color: "Black Sable",
+    pattern: "Standard",
     role: "Breeder",
     status: "Retired"
   },
@@ -167,6 +203,8 @@ export const ferrets = [
     sex: "Jill",
     birthDate: "2022-02-15",
     size: "Standard",
+    color: "Champagne",
+    pattern: "Standard",
     role: "Breeder",
     status: "Retired"
   },
@@ -176,6 +214,8 @@ export const ferrets = [
     sex: "Jill",
     birthDate: "2023-07-09",
     size: "Mini",
+    color: "Sable",
+    pattern: "Point",
     role: "Breeder",
     status: "Active"
   },
@@ -185,6 +225,8 @@ export const ferrets = [
     sex: "Hob",
     birthDate: "2024-04-10",
     size: "Standard",
+    color: "Black Sable",
+    pattern: "Mitt",
     role: "Breeder",
     status: "Inactive"
   },
@@ -194,6 +236,8 @@ export const ferrets = [
     sex: "Jill",
     birthDate: "2024-04-02",
     size: "Standard",
+    color: "Sable",
+    pattern: "Standard",
     role: "Breeder",
     status: "Active"
   },
@@ -203,6 +247,8 @@ export const ferrets = [
     sex: "Jill",
     birthDate: "2022-07-14",
     size: "Standard",
+    color: "Sable",
+    pattern: "Point",
     role: "Breeder",
     status: "Retired"
   },
@@ -212,6 +258,8 @@ export const ferrets = [
     sex: "Hob",
     birthDate: "2023-07-31",
     size: "Standard",
+    color: "Roan",
+    pattern: "Mitt",
     role: "Breeder",
     status: "Rehomed"
   },
@@ -221,6 +269,8 @@ export const ferrets = [
     sex: "Jill",
     birthDate: "2023-05-21",
     size: "Standard",
+    color: "Sable",
+    pattern: "Standard",
     role: "Breeder",
     status: "Deceased"
   },
@@ -230,6 +280,8 @@ export const ferrets = [
     sex: "Hob",
     birthDate: "2024-04-10",
     size: "Standard",
+    color: "Black Sable",
+    pattern: "Mitt",
     role: "Breeder",
     status: "Rehomed"
   },
@@ -239,6 +291,8 @@ export const ferrets = [
     sex: "Jill",
     birthDate: "2022-02-17",
     size: "Micro",
+    color: "Sable",
+    pattern: "Standard",
     role: "Breeder",
     status: "Deceased"
   },
@@ -248,6 +302,8 @@ export const ferrets = [
     sex: "Hob",
     birthDate: "2024-04-02",
     size: "Standard",
+    color: "Roan",
+    pattern: "Mitt",
     role: "Breeder",
     status: "Rehomed"
   }

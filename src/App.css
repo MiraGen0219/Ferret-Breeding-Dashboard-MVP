@@ -69,3 +69,78 @@ body {
   border-radius: 8px;
   font-size: 1rem;
 }
+
+.filter-controls {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 24px;
+}
+
+.search-input {
+  padding: 10px 12px;
+  border: 1px solid #d7c7b8;
+  border-radius: 8px;
+  font-size: 1rem;
+  background-color: #fffaf5;
+}
+
+.search-input:focus {
+  outline: none;
+  border-color: #9b6f47;
+}
+
+.ferret-detail {
+  background-color: #fffaf5;
+  border: 1px solid #d7c7b8;
+  border-radius: 12px;
+  padding: 20px;
+  margin: 24px 0;
+}
+
+.ferret-detail h2 {
+  margin-top: 0;
+}
+
+.ferret-detail h3 {
+  margin-top: 18px;
+  border-bottom: 1px solid #d7c7b8;
+  padding-bottom: 4px;
+}
+
+.ferret-detail ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.ferret-detail li {
+  padding: 8px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.ferret-detail li:last-child {
+  border-bottom: none;
+}
+
+.ferret-card {
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.ferret-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+.ferret-detail button {
+  margin-top: 16px;
+  padding: 8px 14px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.ferret-detail button:hobver {
+  opacity: 0.9;
+}

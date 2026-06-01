@@ -1,11 +1,13 @@
 import { useState } from "react";
 import FerretCard from "../components/FerretCard";
-import { ferrets } from "../data/seedData";
+import { ferrets, pairings, litters } from "../data/seedData";
+import FerretDetail from "../components/FerretDetail";
 
 function Ferrets() {
   const [searchTerm, setSearchTerm] = useState("");
   const [statusFilter, setStatusFilter] = useState("All");
   const [sortOption, setSortOption] = useState("name-asc");
+  const [selectedFerret, setSelectedFerret] = useState(null);
 
 
   const filteredFerrets = ferrets
@@ -32,6 +34,7 @@ function Ferrets() {
     <div className="page">
       <h1>Ferrets</h1>
 
+    <div className="filter-controls">
       <input
         type="text"
         placeholder="Search ferrets..."
@@ -63,10 +66,13 @@ function Ferrets() {
         <option value="age-asc">Age Oldest-Youngest</option>
         <option value="age-desc">Age Youngest-Oldest</option>
       </select>
+    </div>
+
+      <FerretDetail ferret={selectedFerret} pairings={pairings} litters={litters} onClose={() => setSelectedFerret(null)} />
 
       <div className="card-grid">
         {filteredFerrets.map((ferret) => (
-          <FerretCard key={ferret.id} ferret={ferret} />
+          <FerretCard key={ferret.id} ferret={ferret} onClick={() => setSelectedFerret(ferret)} />
         ))}
       </div>
     </div>
