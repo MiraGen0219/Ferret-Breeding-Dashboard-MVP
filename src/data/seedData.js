@@ -3,6 +3,7 @@ export const ferrets = [
     id: 1,
     name: "Princess Pea",
     sex: "Jill",
+    birthDate: "2024-12-14",
     size: "Mini",
     role: "Breeder",
     status: "Active"
@@ -11,6 +12,7 @@ export const ferrets = [
     id: 2,
     name: "Boggart",
     sex: "Hob",
+    birthDate: "2024-06-17",
     size: "Standard",
     role: "Breeder",
     status: "Active"
@@ -19,6 +21,7 @@ export const ferrets = [
     id: 3,
     name: "Selkie",
     sex: "Jill",
+    birthDate: "2026-02-27",
     size: "Mini",
     role: "Breeder",
     status: "Active"
@@ -27,6 +30,7 @@ export const ferrets = [
     id: 4,
     name: "Ettin",
     sex: "Hob",
+    birthDate: "2024-07-15",
     size: "Standard",
     role: "Breeder",
     status: "Active"
@@ -35,6 +39,7 @@ export const ferrets = [
     id: 5,
     name: "Queen of Hearts",
     sex: "Jill",
+    birthDate: "2025-05-11",
     size: "Standard",
     role: "Breeder",
     status: "Active"
@@ -43,6 +48,7 @@ export const ferrets = [
     id: 6,
     name: "Jabberwocky",
     sex: "Hob",
+    birthDate: "2024-05-13",
     size: "Standard",
     role: "Breeder",
     status: "Active"
@@ -51,6 +57,7 @@ export const ferrets = [
     id: 7,
     name: "Enarxi",
     sex: "Hob",
+    birthDate: "2023-05-08",
     size: "Standard",
     role: "Breeder",
     status: "Active"
@@ -59,6 +66,7 @@ export const ferrets = [
     id: 8,
     name: "Belle's Enchantment",
     sex: "Jill",
+    birthDate: "2025-02-18",
     size: "Standard",
     role: "Breeder",
     status: "Active"
@@ -67,6 +75,7 @@ export const ferrets = [
     id: 9,
     name: "Aniko",
     sex: "Jill",
+    birthDate: "2021-05-14",
     size: "Standard",
     role: "Breeder",
     status: "Retired"
@@ -75,6 +84,7 @@ export const ferrets = [
     id: 10,
     name: "Mr. Jingles",
     sex: "Hob",
+    birthDate: "2023-07-09",
     size: "Standard",
     role: "Breeder",
     status: "Retired"
@@ -83,6 +93,7 @@ export const ferrets = [
     id: 11,
     name: "Gooseberry",
     sex: "Hob",
+    birthDate: "2022-03-12",
     size: "Mini",
     role: "Breeder",
     status: "Retired"
@@ -91,6 +102,7 @@ export const ferrets = [
     id: 12,
     name: "Mother Goose",
     sex: "Jill",
+    birthDate: "2025-04-02",
     size: "Standard",
     role: "Breeder",
     status: "Active"
@@ -99,6 +111,7 @@ export const ferrets = [
     id: 13,
     name: "Swan Maiden",
     sex: "Jill",
+    birthDate: "2025-05-19",
     size: "Standard",
     role: "Breeder",
     status: "Active",
@@ -107,6 +120,7 @@ export const ferrets = [
     id: 14,
     name: "Rapunzel",
     sex: "Jill",
+    birthDate: "2025-05-01",
     size: "Mini",
     role: "Breeder",
     status: "Active"
@@ -115,6 +129,7 @@ export const ferrets = [
     id: 15,
     name: "Queen Titania",
     sex: "Jill",
+    birthDate: "2023-08-06",
     size: "Standard",
     role: "Breeder",
     status: "Retired"
@@ -123,6 +138,7 @@ export const ferrets = [
     id: 16,
     name: "Cinderella",
     sex: "Jill",
+    birthDate: "2023-03-28",
     size: "Standard",
     role: "Breeder",
     status: "Retired"
@@ -131,6 +147,7 @@ export const ferrets = [
     id: 17,
     name: "Lady of the Lake",
     sex: "Jill",
+    birthDate: "2024-04-10",
     size: "Standard",
     role: "Breeder",
     status: "Active"
@@ -139,6 +156,7 @@ export const ferrets = [
     id: 18,
     name: "Avgi",
     sex: "Jill",
+    birthDate: "2023-05-08",
     size: "Standard",
     role: "Breeder",
     status: "Retired"
@@ -147,6 +165,7 @@ export const ferrets = [
     id: 19,
     name: "Suki",
     sex: "Jill",
+    birthDate: "2022-02-15",
     size: "Standard",
     role: "Breeder",
     status: "Retired"
@@ -155,6 +174,7 @@ export const ferrets = [
     id: 20,
     name: "Princess Aurora",
     sex: "Jill",
+    birthDate: "2023-07-09",
     size: "Mini",
     role: "Breeder",
     status: "Active"
@@ -163,6 +183,7 @@ export const ferrets = [
     id: 21,
     name: "Magic Mitten",
     sex: "Hob",
+    birthDate: "2024-04-10",
     size: "Standard",
     role: "Breeder",
     status: "Inactive"
@@ -171,6 +192,7 @@ export const ferrets = [
     id: 22,
     name: "Baba Yaga",
     sex: "Jill",
+    birthDate: "2024-04-02",
     size: "Standard",
     role: "Breeder",
     status: "Active"
@@ -179,6 +201,7 @@ export const ferrets = [
     id: 23,
     name: "Springtime",
     sex: "Jill",
+    birthDate: "2022-07-14",
     size: "Standard",
     role: "Breeder",
     status: "Retired"
@@ -187,6 +210,7 @@ export const ferrets = [
     id: 24,
     name: "Big Bad Wolf",
     sex: "Hob",
+    birthDate: "2023-07-31",
     size: "Standard",
     role: "Breeder",
     status: "Rehomed"
@@ -195,6 +219,7 @@ export const ferrets = [
     id: 25,
     name: "Genesis",
     sex: "Jill",
+    birthDate: "2023-05-21",
     size: "Standard",
     role: "Breeder",
     status: "Deceased"
@@ -203,6 +228,7 @@ export const ferrets = [
     id: 26,
     name: "Pied Piper",
     sex: "Hob",
+    birthDate: "2024-04-10",
     size: "Standard",
     role: "Breeder",
     status: "Rehomed"
@@ -211,6 +237,7 @@ export const ferrets = [
     id: 27,
     name: "Neraida",
     sex: "Jill",
+    birthDate: "2022-02-17",
     size: "Micro",
     role: "Breeder",
     status: "Deceased"
@@ -219,6 +246,7 @@ export const ferrets = [
     id: 28,
     name: "Steadfast Tin Soldier",
     sex: "Hob",
+    birthDate: "2024-04-02",
     size: "Standard",
     role: "Breeder",
     status: "Rehomed"

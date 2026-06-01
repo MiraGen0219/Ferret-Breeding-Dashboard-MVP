@@ -6,6 +6,7 @@ function Dashboard() {
     const totalPairings = pairings.length;
     const totalLitters = litters.length;
 
+
     const activeFerrets = ferrets.filter(
         (ferret) => ferret.status === "Active").length;
 
