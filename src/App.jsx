@@ -1,9 +1,11 @@
-import Ferrets from "./pages/Ferrets";
+import Navbar from "./components/Navbar";
+import Dashboard from "./pages/Dashboard";
 
 function App() {
   return (
     <div>
-      <Ferrets />
+      <Navbar />
+      <Dashboard />
     </div>
   );
 }
