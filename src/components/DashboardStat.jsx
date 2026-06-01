@@ -1,6 +1,6 @@
 function DashboardStat({ title, value }) {
     return (
-        <div>
+        <div className="card stat-card">
             <h2>{title}</h2>
             <p>{value}</p>
         </div>

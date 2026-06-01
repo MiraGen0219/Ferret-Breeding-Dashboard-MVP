@@ -27,9 +27,10 @@ function Dashboard() {
     
 
     return (
-        <div>
+        <div className="page">
             <h1>Dashboard</h1>
 
+        <div className="card-grid">
             <DashboardStat
                 title="Total Ferrets"
                 value={totalFerrets}
@@ -80,6 +81,7 @@ function Dashboard() {
                 value={totalKitsSurvived}
             />
 
+        </div>
         </div>
     );
 }

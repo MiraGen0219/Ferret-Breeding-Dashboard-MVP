@@ -1,6 +1,6 @@
 function LitterCard({ litter }) {
   return (
-    <div>
+    <div className="card">
       <h3>Litter #{litter.id}</h3>
 
       <p>Pairing: {litter.pairing}</p>

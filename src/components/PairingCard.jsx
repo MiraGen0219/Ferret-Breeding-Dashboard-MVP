@@ -1,6 +1,6 @@
 function PairingCard({ pairing}) {
     return (
-        <div>
+        <div className="card">
             <h2>{pairing.jill} x {pairing.hob}</h2>
             <p>Year: {pairing.year}</p>
             <p>Season: {pairing.season}</p>

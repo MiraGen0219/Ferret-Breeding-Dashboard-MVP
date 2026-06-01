@@ -1,8 +1,8 @@
 function FerretCard({ ferret }) {
   return (
-    <div>
+    <div className="card">
       <h3>{ferret.name}</h3>
-
+      
       <p>Sex: {ferret.sex}</p>
       <p>Size: {ferret.size}</p>
       <p>Status: {ferret.status}</p>

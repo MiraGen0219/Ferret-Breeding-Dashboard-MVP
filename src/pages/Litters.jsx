@@ -3,15 +3,17 @@ import { litters } from "../data/seedData";
 
 function Litters() {
   return (
-    <div>
+    <div className="page">
       <h1>Litters</h1>
 
+    <div className="card-grid">
       {litters.map((litter) => (
         <LitterCard
           key={litter.id}
           litter={litter}
         />
       ))}
+    </div>
     </div>
   );
 }
