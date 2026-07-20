@@ -141,6 +141,46 @@ body {
   cursor: pointer;
 }
 
-.ferret-detail button:hobver {
+.ferret-detail button:hover {
   opacity: 0.9;
+}
+
+/* Improve text contrast across pages and cards */
+.page h1,
+.page h2,
+.card h2,
+.card h3,
+.stat-card h2,
+.stat-card h3 {
+  color: #3b2f2f;
+}
+
+/* Dashboard statistic labels */
+.stat-card h2,
+.stat-card h3 {
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+/* Filter and sorting dropdowns */
+.filter-controls select {
+  color: #2f2a26;
+  background-color: #fffaf5;
+  border: 1px solid #d7c7b8;
+  border-radius: 8px;
+  padding: 10px 12px;
+  font-size: 1rem;
+}
+
+/* Ensure dropdown choices remain readable */
+.filter-controls select option {
+  color: #2f2a26;
+  background-color: white;
+}
+
+/* Optional placeholder styling */
+.search-input::placeholder {
+  color: #6b625c;
+  opacity: 1;
 }
